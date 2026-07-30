@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import ProjectDetailPage from './pages/ProjectDetailPage';
+import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
+import HomePage from './pages/HomePage.jsx';
+import ProjectDetailPage from './pages/ProjectDetailPage.jsx';
 
 export default function App() {
   return (

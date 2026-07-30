@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { projects } from '../data/portfolioData';
+import { projects } from '../data/portfolioData.js';
 import {
   ArrowRight,
   ExternalLink,
@@ -47,11 +47,6 @@ export default function ProjectDetailPage() {
       </div>
     );
   }
-
-  // Related projects recommendations
-  const relatedProjects = projects
-    .filter((p) => p.id !== project.id && p.categoryKey === project.categoryKey)
-    .slice(0, 2);
 
   return (
     <div className="min-h-screen pt-28 pb-20">
