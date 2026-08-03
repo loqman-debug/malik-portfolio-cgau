@@ -11,7 +11,7 @@ export const personalInfo = {
   phone: "+967 771879536",
   whatsapp: "https://wa.me/967771879536",
   location: "صنعاء، اليمن",
-  liveSite: "alhitari.thsite.top/malik.html",
+  liveSite: "malik-portfolio-cgau.vercel.app",
   github: "https://github.com/alhitari",
   linkedin: "https://linkedin.com/in/malik-alhitari",
   specializations: [
