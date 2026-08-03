@@ -282,9 +282,9 @@ export const projects = [
     outcomes: [
       "دقة حسابية متناهية وضبط شامل لمبيعات الهواتف والقطع ذات الأرقام التسلسلية."
     ],
-    image: "https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/phone-accounting.png",
     gallery: [
-      "https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=1000&q=80"
+      "/images/phone-accounting.png"
     ],
     liveUrl: "https://alhitari.thsite.top/malik.html",
     githubUrl: "https://github.com/alhitari"
