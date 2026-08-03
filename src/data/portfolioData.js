@@ -163,8 +163,7 @@ export const projects = [
     ],
     image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1000&q=80",
     gallery: [
-      "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1556742049-0a674d898522?auto=format&fit=crop&w=1000&q=80"
+      "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1000&q=80"
     ],
     liveUrl: "https://alhitari.thsite.top/malik.html",
     githubUrl: "https://github.com/alhitari"
@@ -312,9 +311,9 @@ export const projects = [
     outcomes: [
       "تمكين الإدارة من اتخاذ قرارات مالية سريعة بناءً على بيانات فورية دقيقة."
     ],
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/financial-platform.png",
     gallery: [
-      "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1000&q=80"
+      "/images/financial-platform.png"
     ],
     liveUrl: "https://alhitari.thsite.top/malik.html",
     githubUrl: "https://github.com/alhitari"
