@@ -1,13 +1,15 @@
 export const personalInfo = {
-  name: "مالك محمد عبدالعزيز الهتاري",
-  englishName: "Malik Mohammed Abdulaziz Al-Hitari",
+  name: "مالك الهتاري",
+  englishName: "Malik Al-Hatari",
   title: "Full-Stack Software Developer",
   secondaryTitle: "Web & Mobile Application Developer",
   bio: "أنا مطور برمجيات متكامل شغوف بتطوير تطبيقات الويب والهواتف الذكية. أمتلك خبرة عملية في بناء الواجهات الأمامية والأنظمة الخلفية وربطها بواجهات برمجة التطبيقات وقواعد البيانات. أعمل باستخدام تقنيات مثل React وLaravel وFlutter وPHP وMySQL وOracle، وأسعى إلى بناء حلول برمجية عملية وآمنة وقابلة للتوسع، مع الاهتمام بجودة الكود والأداء وتجربة المستخدم.",
-  heroSubtitle: "أطور تطبيقات ويب وموبايل متكاملة تجمع بين الأداء، الأمان، وسهولة الاستخدام.",
+  heroSubtitle: "أطور تطبيقات ويب وموبايل متكاملة تجمع بين الأداء العالي، الأمان، وتجربة المستخدم السلسة.",
   avatar: "/images/malik.jpg",
+  cvPdf: "/Malik_AlHitari_CV.pdf",
   email: "alhtaremalik2@gmail.com",
-  phone: "+967 777 187 953",
+  phone: "+967 771879536",
+  whatsapp: "https://wa.me/967771879536",
   location: "صنعاء، اليمن",
   liveSite: "alhitari.thsite.top/malik.html",
   github: "https://github.com/alhitari",
@@ -124,8 +126,9 @@ export const projects = [
       "تسريع عملية طلب وسكب المياه بنسبة تزيد عن 60%.",
       "تحسين كفاءة إدارة أسطول التوصيل وزيادة رضا العملاء."
     ],
-    image: "https://images.unsplash.com/photo-1548839140-29a749e1cf4e?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/whytech-water.png",
     gallery: [
+      "/images/whytech-water.png",
       "https://images.unsplash.com/photo-1548839140-29a749e1cf4e?auto=format&fit=crop&w=1000&q=80",
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80"
     ],

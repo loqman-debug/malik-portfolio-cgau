@@ -186,6 +186,29 @@ export default function Contact() {
                 </div>
               </div>
 
+              {/* Direct Job Application Quick Actions */}
+              <div className="pt-2 space-y-3">
+                <a
+                  href={personalInfo.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full flex items-center justify-center gap-2.5 px-5 py-3 rounded-xl font-bold text-white bg-emerald-600 hover:bg-emerald-700 transition-colors shadow-md text-sm"
+                >
+                  <Phone className="w-4 h-4" />
+                  <span>تواصل فوري عبر الواتساب</span>
+                </a>
+
+                <a
+                  href={personalInfo.cvPdf}
+                  download="Malik_AlHitari_CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full flex items-center justify-center gap-2.5 px-5 py-3 rounded-xl font-bold text-brand-700 dark:text-brand-300 bg-brand-50 dark:bg-brand-950/80 border border-brand-200 dark:border-brand-800 hover:bg-brand-100 dark:hover:bg-brand-900/60 transition-colors text-sm"
+                >
+                  <span>تحميل ملف السيرة الذاتية CV</span>
+                </a>
+              </div>
+
             </div>
           </div>
 
